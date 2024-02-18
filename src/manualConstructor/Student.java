@@ -1,4 +1,4 @@
-package defaultConstructors;
+package manualConstructor;
 
 public class Student {
     String name;
@@ -6,4 +6,9 @@ public class Student {
     String univName;
     double psp;
     boolean isPlaced;
+
+    public Student(String studentName, String universityName){
+//        name = studentName;
+//        univName = universityName;
+    }
 }

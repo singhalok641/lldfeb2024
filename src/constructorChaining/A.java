@@ -1,2 +1,7 @@
-package constructorChaining;public class A {
+package constructorChaining;
+
+public class A {
+    A(){
+        System.out.println("Constructor of A");
+    }
 }

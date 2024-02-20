@@ -5,32 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3027cf-4a3c-492b-b138-f3f08b2ddea3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessModifiers/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessModifiers/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessModifiers/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessModifiers/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessModifiersCheck/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessModifiersCheck/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/accessModifiersCheck/StudentChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/accessModifiersCheck/StudentChild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constructorChaining/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructorChaining/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constructorChaining/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructorChaining/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constructorChaining/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructorChaining/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constructorChaining/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructorChaining/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constructorChaining/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructorChaining/D.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/defaultConstructors/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/defaultConstructors/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/defaultConstructors/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/defaultConstructors/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/Instructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/Instructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manualConstructor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manualConstructor/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manualConstructor/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manualConstructor/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/overriding/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/overriding/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/overriding/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/overriding/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/A.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/B.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/C.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/polymorphism/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/polymorphism/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -81,20 +61,7 @@
       <recent name="manualConstructor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.constructorChaining.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="accessModifiersCheck.Client" />
-      <module name="lldFeb2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="accessModifiersCheck.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.interfaces.Client">
     <configuration name="constructorChaining.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="constructorChaining.Client" />
       <module name="lldFeb2024" />
@@ -134,6 +101,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="interfaces.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.Client" />
+      <module name="lldFeb2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="manualConstructor.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="manualConstructor.Client" />
       <module name="lldFeb2024" />
@@ -149,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.interfaces.Client" />
         <item itemvalue="Application.constructorChaining.Client" />
         <item itemvalue="Application.inheritance.Client" />
         <item itemvalue="Application.manualConstructor.Client" />
         <item itemvalue="Application.defaultConstructors.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +146,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707413209070</updated>
       <workItem from="1707413210283" duration="7321000" />
-      <workItem from="1708018169355" duration="5674000" />
+      <workItem from="1708018169355" duration="9458000" />
     </task>
     <servers />
   </component>

@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3027cf-4a3c-492b-b138-f3f08b2ddea3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractor/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractor/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractor/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/mergeSort/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/mergeSort/MergeSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorMutex/Adder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorMutex/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorMutex/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorMutex/Subtractor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/aloksingh/Documents/Scaler/Assignment Project/lldFeb2024/src/threads/adderSubtractorMutex",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,12 +58,15 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/threads/adderSubtractorMutex" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="threads.printOneToHundredUsingThreadPool" />
       <recent name="manualConstructor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.threads.adderSubtractorMutex.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.adderSubtractor.Client" />
       <module name="lldFeb2024" />
@@ -78,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threads.mergeSort.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.mergeSort.Client" />
+    <configuration name="threads.adderSubtractorMutex.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.adderSubtractorMutex.Client" />
       <module name="lldFeb2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.mergeSort.*" />
+          <option name="PATTERN" value="threads.adderSubtractorMutex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threads.multiThreadedHelloWorld.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.multiThreadedHelloWorld.Client" />
+    <configuration name="threads.mergeSort.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.mergeSort.Client" />
       <module name="lldFeb2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.multiThreadedHelloWorld.*" />
+          <option name="PATTERN" value="threads.mergeSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.threads.adderSubtractorMutex.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.threads.mergeSort.Client" />
         <item itemvalue="Application.threads.printOneToHundredUsingThreadPool.Client" />
         <item itemvalue="Application.threads.printOneToHundred.Client" />
-        <item itemvalue="Application.threads.multiThreadedHelloWorld.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707413209070</updated>
       <workItem from="1707413210283" duration="7321000" />
-      <workItem from="1708018169355" duration="26655000" />
+      <workItem from="1708018169355" duration="29027000" />
     </task>
     <servers />
   </component>

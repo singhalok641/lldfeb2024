@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3027cf-4a3c-492b-b138-f3f08b2ddea3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorNew/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorNew/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorNew/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorNew/Subtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorSynchronized/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorSynchronized/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorSynchronized/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorSynchronized/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumer/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumer/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumer/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumer/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +68,7 @@
       <recent name="manualConstructor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.threads.adderSubtractorNew.Client">
+  <component name="RunManager" selected="Application.threads.producerConsumer.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.adderSubtractor.Client" />
       <module name="lldFeb2024" />
@@ -125,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threads.mergeSort.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.mergeSort.Client" />
+    <configuration name="threads.producerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.producerConsumer.Client" />
       <module name="lldFeb2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.mergeSort.*" />
+          <option name="PATTERN" value="threads.producerConsumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.threads.producerConsumer.Client" />
         <item itemvalue="Application.threads.adderSubtractorNew.Client" />
         <item itemvalue="Application.threads.adderSubtractorSynchronized.Client" />
         <item itemvalue="Application.threads.adderSubtractorMutex.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.threads.mergeSort.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +153,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707413209070</updated>
       <workItem from="1707413210283" duration="7321000" />
-      <workItem from="1708018169355" duration="32073000" />
+      <workItem from="1708018169355" duration="34614000" />
     </task>
     <servers />
   </component>

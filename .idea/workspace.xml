@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3027cf-4a3c-492b-b138-f3f08b2ddea3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumer/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumer/Consumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumer/Producer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumer/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/threads/producerConsumer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threads/producerConsumer/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/aloksingh/Documents/Scaler/Assignment Project/lldFeb2024/src/threads/adderSubtractorNew",
+    "last_opened_file_path": "/Users/aloksingh/Documents/Scaler/Assignment Project/lldFeb2024/src/threads/producerConsumerSemaphore",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +60,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/threads/producerConsumerSemaphore" />
       <recent name="$PROJECT_DIR$/src/threads/adderSubtractorNew" />
       <recent name="$PROJECT_DIR$/src/threads/adderSubtractorSynchronized" />
       <recent name="$PROJECT_DIR$/src/threads/adderSubtractorMutex" />
@@ -68,20 +70,7 @@
       <recent name="manualConstructor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.threads.producerConsumer.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.adderSubtractor.Client" />
-      <module name="lldFeb2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="threads.adderSubtractor.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.threads.producerConsumerSemaphore.Client">
     <configuration name="threads.adderSubtractorMutex.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.adderSubtractorMutex.Client" />
       <module name="lldFeb2024" />
@@ -121,6 +110,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="threads.producerConsumerSemaphore.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.producerConsumerSemaphore.Client" />
+      <module name="lldFeb2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="threads.producerConsumerSemaphore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="threads.producerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.producerConsumer.Client" />
       <module name="lldFeb2024" />
@@ -136,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.threads.producerConsumerSemaphore.Client" />
         <item itemvalue="Application.threads.producerConsumer.Client" />
         <item itemvalue="Application.threads.adderSubtractorNew.Client" />
         <item itemvalue="Application.threads.adderSubtractorSynchronized.Client" />
         <item itemvalue="Application.threads.adderSubtractorMutex.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +155,8 @@
       <option name="presentableId" value="Default" />
       <updated>1707413209070</updated>
       <workItem from="1707413210283" duration="7321000" />
-      <workItem from="1708018169355" duration="34614000" />
+      <workItem from="1708018169355" duration="35953000" />
+      <workItem from="1710171312516" duration="2293000" />
     </task>
     <servers />
   </component>
@@ -205,6 +208,31 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Store.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Store.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Client.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Producer.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Client.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

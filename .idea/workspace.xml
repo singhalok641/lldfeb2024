@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3027cf-4a3c-492b-b138-f3f08b2ddea3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/javaAdvancedConcepts/generics/GenericPair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaAdvancedConcepts/generics/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaAdvancedConcepts/generics/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaAdvancedConcepts/generics/Utilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/javaAdvancedConcepts/generics/ZooUtilities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorAtomic/Adder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorAtomic/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorAtomic/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/threads/adderSubtractorAtomic/Subtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/PaymentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/StudentComaparatorByAge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collection/StudentComparatorByName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manualConstructor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manualConstructor/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manualConstructor/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manualConstructor/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -77,7 +73,7 @@
       <recent name="manualConstructor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.collection.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="threads.adderSubtractorAtomic.Client" />
       <module name="lldFeb2024" />
@@ -104,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threads.adderSubtractorNew.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.adderSubtractorNew.Client" />
+    <configuration name="collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection.Main" />
       <module name="lldFeb2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.adderSubtractorNew.*" />
+          <option name="PATTERN" value="collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.collection.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.threads.producerConsumerSemaphore.Client" />
         <item itemvalue="Application.threads.producerConsumer.Client" />
-        <item itemvalue="Application.threads.adderSubtractorNew.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +159,7 @@
       <updated>1707413209070</updated>
       <workItem from="1707413210283" duration="7321000" />
       <workItem from="1708018169355" duration="35953000" />
-      <workItem from="1710171312516" duration="10013000" />
+      <workItem from="1710171312516" duration="17568000" />
     </task>
     <servers />
   </component>
@@ -240,6 +236,11 @@
           <url>file://$PROJECT_DIR$/src/threads/producerConsumerSemaphore/Client.java</url>
           <line>24</line>
           <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/collection/Main.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="28" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

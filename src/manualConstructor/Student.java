@@ -8,7 +8,7 @@ public class Student {
     boolean isPlaced;
 
     public Student(String studentName, String universityName){
-//        name = studentName;
-//        univName = universityName;
+        name = studentName;
+        univName = universityName;
     }
 }

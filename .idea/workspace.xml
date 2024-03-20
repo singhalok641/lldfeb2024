@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3027cf-4a3c-492b-b138-f3f08b2ddea3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/demo1/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/demo2/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/demo3/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/SomethingDoer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/adderSubtractorMutex/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lambdas/adderSubtractorMutex/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/demo4/AnExampleOfCheckedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/demo4/AnExampleOfUncheckedException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/StudentComaparatorByAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/StudentComparatorByAge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/collection/StudentComparatorByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/StudentComparatorByName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,22 +40,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/aloksingh/Documents/Scaler/Assignment Project/lldFeb2024/src/lambdas",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/aloksingh/Documents/Scaler/Assignment Project/lldFeb2024/src/lambdas&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/lambdas" />
@@ -80,7 +71,20 @@
       <recent name="manualConstructor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.exceptionHandling.demo3.Client">
+  <component name="RunManager" selected="Application.AnExampleOfUncheckedException">
+    <configuration name="AnExampleOfUncheckedException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionHandling.demo4.AnExampleOfUncheckedException" />
+      <module name="lldFeb2024" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionHandling.demo4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionHandling.demo1.Client" />
       <module name="lldFeb2024" />
@@ -120,19 +124,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lambdas.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdas.Main" />
-      <module name="lldFeb2024" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lambdas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="streams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="streams.Main" />
       <module name="lldFeb2024" />
@@ -148,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnExampleOfUncheckedException" />
         <item itemvalue="Application.exceptionHandling.demo3.Client" />
         <item itemvalue="Application.exceptionHandling.demo2.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.streams.Main" />
-        <item itemvalue="Application.lambdas.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +157,8 @@
       <updated>1707413209070</updated>
       <workItem from="1707413210283" duration="7321000" />
       <workItem from="1708018169355" duration="35953000" />
-      <workItem from="1710171312516" duration="28225000" />
+      <workItem from="1710171312516" duration="28524000" />
+      <workItem from="1710953522378" duration="2028000" />
     </task>
     <servers />
   </component>

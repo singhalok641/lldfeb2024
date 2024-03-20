@@ -2,7 +2,16 @@ package collection;
 
 public class Student implements Comparable<Student>{
     private int id;
-    String name;
+    private String name;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
     private int age;
     private double psp;
 

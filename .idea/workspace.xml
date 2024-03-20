@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e3027cf-4a3c-492b-b138-f3f08b2ddea3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/collection/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/PaymentStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/StudentComaparatorByAge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/collection/StudentComparatorByName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/demo1/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/demo2/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/demo3/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/SomethingDoer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/adderSubtractorMutex/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lambdas/adderSubtractorMutex/Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/StudentComaparatorByAge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/StudentComparatorByAge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/collection/StudentComparatorByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/StudentComparatorByName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +56,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/aloksingh/Documents/Scaler/Assignment Project/lldFeb2024/src/threads/adderSubtractorAtomic",
+    "last_opened_file_path": "/Users/aloksingh/Documents/Scaler/Assignment Project/lldFeb2024/src/lambdas",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -62,24 +67,26 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lambdas" />
       <recent name="$PROJECT_DIR$/src/threads/adderSubtractorAtomic" />
       <recent name="$PROJECT_DIR$/src/threads/producerConsumerSemaphore" />
       <recent name="$PROJECT_DIR$/src/threads/adderSubtractorNew" />
       <recent name="$PROJECT_DIR$/src/threads/adderSubtractorSynchronized" />
-      <recent name="$PROJECT_DIR$/src/threads/adderSubtractorMutex" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exceptionHandling.demo3" />
+      <recent name="exceptionHandling.demo2" />
       <recent name="threads.printOneToHundredUsingThreadPool" />
       <recent name="manualConstructor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.collection.Main">
+  <component name="RunManager" selected="Application.exceptionHandling.demo3.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.adderSubtractorAtomic.Client" />
+      <option name="MAIN_CLASS_NAME" value="exceptionHandling.demo1.Client" />
       <module name="lldFeb2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.adderSubtractorAtomic.*" />
+          <option name="PATTERN" value="exceptionHandling.demo1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="javaAdvancedConcepts.generics.Main" />
+    <configuration name="exceptionHandling.demo2.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionHandling.demo2.Client" />
       <module name="lldFeb2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="javaAdvancedConcepts.generics.*" />
+          <option name="PATTERN" value="exceptionHandling.demo2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="collection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="collection.Main" />
+    <configuration name="exceptionHandling.demo3.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionHandling.demo3.Client" />
       <module name="lldFeb2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="collection.*" />
+          <option name="PATTERN" value="exceptionHandling.demo3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threads.producerConsumerSemaphore.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.producerConsumerSemaphore.Client" />
+    <configuration name="lambdas.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lambdas.Main" />
       <module name="lldFeb2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.producerConsumerSemaphore.*" />
+          <option name="PATTERN" value="lambdas.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="threads.producerConsumer.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="threads.producerConsumer.Client" />
+    <configuration name="streams.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.Main" />
       <module name="lldFeb2024" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="threads.producerConsumer.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.collection.Main" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.exceptionHandling.demo3.Client" />
+        <item itemvalue="Application.exceptionHandling.demo2.Client" />
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.threads.producerConsumerSemaphore.Client" />
-        <item itemvalue="Application.threads.producerConsumer.Client" />
+        <item itemvalue="Application.streams.Main" />
+        <item itemvalue="Application.lambdas.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +166,7 @@
       <updated>1707413209070</updated>
       <workItem from="1707413210283" duration="7321000" />
       <workItem from="1708018169355" duration="35953000" />
-      <workItem from="1710171312516" duration="17568000" />
+      <workItem from="1710171312516" duration="28225000" />
     </task>
     <servers />
   </component>
@@ -241,6 +248,11 @@
           <url>file://$PROJECT_DIR$/src/collection/Main.java</url>
           <line>75</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/lambdas/Main.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="31" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
